@@ -1,0 +1,12 @@
+<?php 
+include_once( "DBControl.php");
+	$db=new dbcontrol;
+    $res = mysql_query("select * from test1");  
+    $resultA = array();  
+    while($row = mysql_fetch_array($res)){  
+      array_push($resultA,  
+        array('tno' =>$row[0], 'name'=>$row[1],'addr'=>$row[2] 
+        ));  
+    }  
+    echo json_encode(array("result"=>$resultA));   
+?>

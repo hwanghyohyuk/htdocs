@@ -1,0 +1,14 @@
+	<?php 
+//	include_once( "DBControl.php");
+//	$json = $_POST[json];
+
+	$json = '{"tno":"NULL","name": "gygur", "addr":"rudrleh"}';
+	$data=json_decode($json);
+	print_r($data);
+//	$db=new dbcontrol;
+
+//$values="NULL,'$name','$addr'";
+	//$row = $db->db_insert("test1",$values);
+
+
+	?>

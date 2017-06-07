@@ -1,0 +1,106 @@
+html, body {margin:0; padding:0; min-width:320px;height:100%; font-size:12pt;}
+#wrap {
+    min-height: 100%;
+	position: relative;
+	padding-bottom: 20px;
+    color:#fff;
+}
+#header {
+	position:relative;
+    width:100%;
+    height:150px;
+}
+#logo {
+	text-align: center;
+	color: #000000;
+	font-family:arial;
+	font-size: 50pt;
+	line-height:100px;
+    width:100%;
+    height:100px;
+    background-color:#ffffff;
+}
+#logo .none{
+color: black; 
+text-decoration: none;
+}
+#nav {
+	text-align: center;
+    width:100%;
+    height:50px;
+    background-color:#000000;
+}
+#menu{
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+#menu .menu-item {
+  display:inline-block;
+  height:50px;
+  padding:0 2%;
+}
+#menu .menu-item:hover {
+	background-color:gray;
+}
+#menu .menu-item .item {
+  text-decoration: none;
+  font-family:arial;
+	font-size: 15pt;
+  display:inline-block;
+  color:white;
+  line-height:50px;  
+}
+#body {
+    width:100%;
+	height:100%;
+	
+}
+#body #container {
+width:80%;
+height: 100%;    
+margin: 0 10%;
+color:black;
+}
+.db {
+text-align:center;
+font-size: 12pt;
+}
+#DBtable{
+display:inline-block;
+font-size: 15pt;
+border-collapse: separate;
+    border-spacing: 0px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px 0px;
+  }
+#DBtable th {
+    font-size: 12pt;
+    width: 300px;
+    padding: 10px 0px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: gray ;
+	}
+#DBtable td {
+    font-size: 12pt;
+    width: 200px;
+    padding: 10px 0px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+}
+#footer {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 50px;
+background-color: silver;
+text-align: center;
+line-height:50px;
+}

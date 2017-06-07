@@ -1,0 +1,16 @@
+<body>
+<div id="wrap">
+    <div id="header">
+	<div id="logo"><a class = "none" href="index.php" target="_self">ESCAPE</a></div>
+	<div id="nav">
+	<ul id="menu">
+			<li class ="menu-item"><a class = "item" href="index.php" target="_self">test1</a></li>
+			<li class ="menu-item"><a class = "item" href="subPage_1.php" target="_self">test2</a></li>
+			<li class ="menu-item"><a class = "item" href="index.php" target="_self">test3</a></li>
+			<li class ="menu-item"><a class = "item" href="index.php" target="_self">test4</a></li>
+			<li class ="menu-item"><a class = "item" href="index.php" target="_self">test5</a></li>
+	</ul>
+	</div>
+	</div>
+    <div id="body">
+        <div id="container">

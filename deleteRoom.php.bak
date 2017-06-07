@@ -1,0 +1,16 @@
+	<?php 
+	include_once( "DBControl.php");
+	$rhost = $_POST[RHOST];
+
+	$db=new dbcontrol;
+	$values="RHOST = '$rhost'";
+	$row = $db->db_delete("ROOM",$values);
+
+	/*
+	function db_delete($Tname, $where){
+		$sql="delete from ".$Tname." WHERE ".$where.";";
+		$result = mysql_query($sql);
+		if(!$result) echo "데이터삭제 실패";
+	}
+*/
+	?>
