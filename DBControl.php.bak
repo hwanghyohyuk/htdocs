@@ -41,8 +41,8 @@ class dbControl{
 	function db_insert($Tname, $data){
 		$sql="insert into ".$Tname." VALUES (".$data.");";
 		$result = mysql_query($sql);
-		if(!$result) echo "중복";
-		else echo "저장";
+		if(!$result) echo "1";
+		else echo "0";
 	}
 
 	// -------------------------------------------------------------------
@@ -62,7 +62,8 @@ class dbControl{
 	function db_modify($Tname, $set, $where){
 		$sql="update ".$Tname." SET ".$set." WHERE ".$where;
 		$result = mysql_query($sql);
-		if(!$result) echo "데이터수정 실패";
+		if(!$result) echo "1";
+		else echo "0";
 	}
 
 

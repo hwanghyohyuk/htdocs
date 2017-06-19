@@ -60,9 +60,10 @@ class dbControl{
 	// 데이터 수정
 	// -------------------------------------------------------------------
 	function db_modify($Tname, $set, $where){
-		$sql="update ".$Tname." SET ".$set." WHERE ".$where;
+		$sql="update ".$Tname." SET ".$set." WHERE ".$where.";";
 		$result = mysql_query($sql);
-		if(!$result) echo "데이터수정 실패";
+		if(!$result) echo "1";
+		else echo "0";
 	}
 
 
